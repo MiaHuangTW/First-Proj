@@ -10,7 +10,7 @@ namespace NumberHelpers.Controllers
     {
         public ActionResult Index()
         {
-            var model = new int[] { 30,40,50,60,70,80};
+            var model = new int[] { 5,30,40,50,60,70,80,150};
 
             //return View(model);
             //return View("About",model);
