@@ -1,0 +1,13 @@
+﻿@helper Baseline(int item)
+{
+    var i = 10;
+    
+    if (i+item > 50)
+    {
+        <span style="color:green">@item</span>
+    }
+    else
+    {
+        <span style="color:red">@item</span>
+    }
+}
